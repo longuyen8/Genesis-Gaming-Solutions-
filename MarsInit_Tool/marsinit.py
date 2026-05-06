@@ -295,7 +295,7 @@ def prompt_filename(default_name: str) -> str:
 
 def save_output(result: str, default_name: str) -> None:
     default_folder = get_desktop_path()
-    Output_folder = prompt_output_folder(default_folder)
+    output_folder = prompt_output_folder(default_folder)
     
     print()
     print(f"Detected output folder: {output_folder}")
